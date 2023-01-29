@@ -98,7 +98,7 @@ export default class ListQuestion extends Component {
                       <td>{questionList.option2}</td>
                       <td>{questionList.option3}</td>
                       <td>{questionList.option4}</td>
-                      <td>{questionList.option4}</td>
+                      <td>{questionList.option5}</td>
                       <td>{questionList.answer}</td>
                       <td><i className="fa-solid fa-pen-to-square" onClick={() => this.updateQuestion(questionList.id)}></i></td>
                       <td><i className="fa-solid fa-eye" onClick={() => this.viewQuestion(questionList.id)}></i></td>
